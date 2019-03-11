@@ -4,13 +4,14 @@
 
 export const environment = {
   production: false,
-  firebase: {
-    apiKey: 'my-api-key',
-    authDomain: 'my-domain.firebaseapp.com',
-    databaseURL: 'https://my-domain.firebaseio.com',
-    projectId: 'my-domain',
-    storageBucket: 'my-domain.appspot.com',
-    messagingSenderId: '123456789012'
+  firebaseConfig: {
+
+    apiKey: 'AIzaSyC3TKVhW9DAngLQuvtHgfH-t0WErIvrL3A',
+    authDomain: 'testproject-56c33.firebaseapp.com',
+    databaseURL: 'https://testproject-56c33.firebaseio.com',
+    projectId: 'testproject-56c33',
+    storageBucket: 'testproject-56c33.appspot.com',
+    messagingSenderId: '129335660216'
   }
 };
 

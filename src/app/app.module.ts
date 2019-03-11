@@ -42,7 +42,7 @@ import { environment } from '../environments/environment';
     SharedModule,
     CoreModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
-    AngularFireModule.initializeApp(environment.firebase), // imports firebase/app needed for everything
+    AngularFireModule.initializeApp(environment.firebaseConfig), // imports firebase/app needed for everything
     AngularFirestoreModule, // imports firebase/firestore, only needed for database features
     AngularFirestoreModule.enablePersistence(), // enable offline data
     AngularFireAuthModule, // imports firebase/auth, only needed for auth features,

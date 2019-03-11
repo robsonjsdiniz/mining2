@@ -6,4 +6,5 @@ import { PlaceBase } from './base/place.base';
 export interface Place extends PlaceBase {
 
     // Insert here your custom attributes and function
+    hour: string;
 }

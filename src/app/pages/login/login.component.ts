@@ -9,7 +9,7 @@ import { environment } from 'src/environments/environment.prod';
 })
 export class LoginComponent {
 
-    public apiKey: string = environment.firebase.apiKey;
+    public apiKey: string = environment.firebaseConfig.apiKey;
 
     constructor(
         public authenticationService: AuthenticationService,
